@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Glassmorphism card styles */
+.glass-card {
+  background: rgba(15, 23, 42, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(71, 114, 174, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25),
+              inset 0 1px 0 rgba(148, 163, 184, 0.1);
+}
+
+.glass-card-elevated {
+  background: rgba(30, 41, 59, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(71, 114, 174, 0.2);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3),
+              inset 0 1px 0 rgba(148, 163, 184, 0.15);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  transition: opacity 200ms ease;
+}
+
+.logo:hover {
+  opacity: 0.75;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #cbd5e1;
+}
