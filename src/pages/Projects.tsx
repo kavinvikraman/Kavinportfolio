@@ -30,7 +30,7 @@ const Projects = () => {
       ],
       image: "/kavinportfolio.png",
       link: "#",
-      github: "https://github.com/kavinvikraman",
+      github: "https://github.com/kavinvikraman/Kavinportfolio",
       color: "from-purple-500 to-pink-500"
     },
     {
