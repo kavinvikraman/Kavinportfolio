@@ -158,7 +158,7 @@ const Hero = () => {
                 </svg>
               </motion.a>
               <motion.a
-                href="https://linkedin.com/in/kavinvikraman"
+                href="https://www.linkedin.com/in/kavin-vikraman-777572297/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.15, y: -3 }}

@@ -79,15 +79,6 @@ const CodingProfiles = () => {
               whileHover={{ y: -8, scale: 1.02 }}
               className={`group block ${profile.bgColor} rounded-3xl p-5 border ${profile.borderColor} hover:shadow-2xl transition-all duration-500`}
             >
-              {/* Profile Image - Medium Size */}
-              <div className="relative w-full h-56 rounded-2xl overflow-hidden bg-white shadow-md border border-gray-100 mb-5">
-                <img
-                  src={profile.image}
-                  alt={profile.name}
-                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-
               {/* Profile Info */}
               <div className="text-center">
                 <div className="flex items-center justify-center gap-2 mb-2">

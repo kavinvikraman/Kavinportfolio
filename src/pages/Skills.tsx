@@ -54,6 +54,7 @@ const Skills = () => {
       skills: [
         { name: 'Firebase', icon: '🔥' },
         { name: 'PostgreSQL', icon: '🐘' },
+        { name: 'MongoDB', icon: '🍃' },
         { name: 'Vercel', icon: '▲' },
       ]
     },

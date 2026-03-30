@@ -52,14 +52,6 @@ const Certifications = () => {
       image: "/cert6.png",
       link: "#",
       color: "from-blue-600 to-indigo-500"
-    },
-    {
-      id: 7,
-      title: "NPTEL Certification",
-      issuer: "NPTEL - IIT",
-      image: "/cert7.png",
-      link: "#",
-      color: "from-amber-500 to-yellow-500"
     }
   ];
 
